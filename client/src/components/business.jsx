@@ -49,7 +49,7 @@ class business extends Component {
       )
       .then(response => {
         debugger;
-        hideLoader;
+        hideLoader();
         // this.data = response;
         console.log(response);
         var savedBusiness = [];
