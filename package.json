@@ -8,7 +8,7 @@
     "dist"
   ],
   "scripts": {
-    "dev": "nodemon server.js & npm start"
+    "dev": "nodemon server.js & npm client/start"
   },
   "author": "",
   "license": "ISC",
