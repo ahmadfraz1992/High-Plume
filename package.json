@@ -8,9 +8,8 @@
     "dist"
   ],
   "scripts": {
-  "client": "cd client && npm start",
- "server": "nodemon server.js --ignore client",
- "start": "concurrently - kill-others \"npm run server\" \"npm run client\""
+ 
+ "start": "concurrently - kill-others \"nodemon server.js\" \"npm start\""
   },
   "author": "",
   "license": "ISC",
