@@ -9,7 +9,7 @@
   ],
   "scripts": {
  
- "start": "concurrently - kill-others \"nodemon server.js\" \"npm start\""
+ "dev": "nodemon server.js && cd ./client && npm run-script start"
   },
   "author": "",
   "license": "ISC",
