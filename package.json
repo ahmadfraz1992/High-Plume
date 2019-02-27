@@ -9,7 +9,7 @@
   ],
   "scripts": {
  
-    "dev": "nodemon server.js && cd ./client && npm run-script start"
+     "dev": "nodemon server.js --ignore client"
   },
   "author": "",
   "license": "ISC",
